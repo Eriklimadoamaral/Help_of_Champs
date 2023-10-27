@@ -1,0 +1,168 @@
+body {
+    background-image: url(./summonersrift.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: #C4A15B
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+section {
+    margin: 90px;
+    display: flex;
+    flex-flow: wrap;
+    height: 600px;
+    border: #C4A15B
+}
+
+h1 {
+    width: 80%;
+    font-size: 50px;
+    margin: 100px;
+    color: #C4A15B;
+    margin-left: 13rem;
+    margin-top: 2rem;
+    font-family: Permanent Marker;
+    
+}
+
+video {
+    width: 1080px;
+    margin-left: 13%;
+    margin-top: -60px
+}
+
+section.especialidades {
+    padding: 40px 4%
+}
+
+section.especialidades .flex {
+    gap: 60px
+}
+
+h2.titulo {
+    color: #f0f8ff;
+    font-size: 40px;
+    text-align: center
+}
+
+h2.titulo span {
+    color: #3e0345;
+    font-family: Permanent Marker;
+}
+
+.especialidades .especialidades-box {
+    color: #f0f8ff;
+    padding: 0;
+    border-radius: 50px;
+    margin-top: 40px;
+    transition: .2s
+}
+
+.especialidades .especialidades:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #3e0345
+}
+
+.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: #00253a;
+    text-align: center;
+    margin-left: 46%
+}
+
+.especialidades .especialidades-box p {
+    font-family: Reggae One;
+    font-size: 20px;
+    text-align: center
+}
+
+.especialidades .especialidades-box h3 {
+    font-family:  Permanent Marker;
+    font-size: 40px;
+    margin: 15px 0;
+    color: #3e0345;
+    text-align: center;
+    padding: 10px
+}
+
+footer {
+    background: linear-gradient(to top, #3e0345 0%, #52a1ce 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    padding: 40px 100px 50px
+}
+
+.rede-socias {
+    margin-bottom: 20px
+}
+
+.rede-socias i {
+    font-size: 28px;
+    border: 2px solid #000;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    margin-left: 1rem
+}
+
+.copyright {
+    font-size: 15px;
+    margin-top: 25px;
+    font-family: Sedgwick Ave Display;
+    text-align: center
+}
+
+.linha {
+    background-color: #3e0345;
+    width: 20px;
+    margin-top: 2px;
+    height: 6px;
+    border-radius: 50px;
+    position: relative;
+    animation: underline-animation 3s infinite
+}
+
+@keyframes underline-animation {
+    0% {
+        left: -150px;
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        left: 150px;
+        opacity: 0
+    }
+}
+
+.Voltar {
+    font-size: 20px;
+    margin-top: 19rem;
+    background-color: #3e0345;
+    color: #C4A15B;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-left: 0;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Reggae One;
+}
+
+.button:hover {
+    letter-spacing: 2px;
+    transition: .4s ;
+}

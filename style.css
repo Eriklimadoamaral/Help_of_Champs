@@ -1,0 +1,155 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    border: none;
+}
+
+body{
+    margin: 0;
+}
+
+html::-webkit-scrolbar{
+    width: 5crem;
+}
+
+html::-webkit-scrolbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #C4A15B
+    ;
+    border-radius: 5crem;
+}
+
+.background{
+    background-image: url("./champion-ashe-project-splash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5crem;
+    align-items: center;
+}
+
+.logo img{
+    width: 120px;
+    height: auto;
+    margin-left: 5rem;
+    border-radius: 5px;
+
+}
+
+ul{
+    list-style: none; 
+    display: flex;
+    gap: 20px;
+   
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    margin-right: 20px;
+    margin-left: 5px;
+    background: #180f4a;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #fff;
+    font-family: Reggae One;
+
+    width: 105px;
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+ul li a:hover{
+    text-transform: capitalize;
+    color: #C4A15B;
+    border-bottom: solid 1px;
+    background-image: url("./summonersrift.jpg"); 
+    
+}
+
+.abas a:hover span{
+    display: block;
+    position: absolute;
+    top: 15%;
+    padding: 30px;
+    width: 700px;
+    margin-left: 0px;
+    color: #00253a;
+    background: #C4A15B; 
+    font-size: 10;
+    font-family: Permanent Marker;
+    border-radius: 8px;
+}
+
+
+.abas a span{
+    display: none;
+}
+
+hr{
+    border-bottom: solid 0.1px;
+    color: #C4A15B ;
+    margin-top: 40px;
+}
+
+.C-title{
+    margin-left: 5rem;
+    margin-top: 90px;
+}
+
+.C-title h1{ 
+    font-size: 4.8rem;
+    color: #C4A15B;
+    font-family: Sedgwick Ave Display;
+}
+
+.p{
+    color: #fff;
+    line-height: 2rem;
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-left: 5rem;
+    margin-top: 10px;
+    font-family: Reggae One; 
+}
+
+.button{
+    font-size: 20px;
+    margin-top: 2rem;
+    background-color: #C4A15B;
+    color:  #fff;
+    padding: 10px 50px;
+    cursor: pointer;
+    margin-left: 18%;
+    border-radius: 5px;
+}
+
+.button:hover{
+    letter-spacing: 2px;
+    transition: 0.4s all;
+}
+
+.abas{
+    margin-right: 50%;
+    font-size: 20px;
+}
+
